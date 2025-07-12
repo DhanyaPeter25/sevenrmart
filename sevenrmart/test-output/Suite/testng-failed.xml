@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="testscript.LoginTest">
+        <methods>
+          <include name="browserInitialisation"/>
+          <include name="verifyTheUserIsAbleToLoginUsingValidCredentials"/>
+          <include name="verifyTheUserIsAbleToLoginUsingInvalidUsername_InvalidPassword"/>
+          <include name="verifyTheUserIsAbleToLoginUsingInalidUsername_validPassword"/>
+          <include name="driverQuit"/>
+          <include name="verifyTheUserIsAbleToLoginUsingValidUsername_InvalidPassword"/>
+        </methods>
+      </class> <!-- testscript.LoginTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
